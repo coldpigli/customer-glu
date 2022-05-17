@@ -1,0 +1,22 @@
+.timerContainer{
+    width: 30rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.timerControls{
+    display: flex;
+    gap: 1rem;
+}
+
+.timerControls button{
+    width: 4rem;
+    height: 2rem;
+    background-color: azure;
+    border-radius: 5px;
+}
