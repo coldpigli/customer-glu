@@ -1,9 +1,11 @@
 import './App.css';
+import TimerContainer from './TimerContainer/TimerContainer';
 
 function App() {
   return (
     <div className="App">
-      Hi! Customer Glu
+      <h1>Hi! CustomerGlu</h1>
+      <TimerContainer/>
     </div>
   );
 }
