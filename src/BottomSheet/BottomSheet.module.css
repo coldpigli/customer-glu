@@ -1,0 +1,27 @@
+.sheetContainer{
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.sheetModal{
+    background-color: white;
+    padding: 1rem;
+    min-width: 50%;
+    min-height: 30%;
+    position: fixed;
+    background-color: #fff;
+    animation: slidein 0.3s;
+    z-index: 10;
+}
+
+@keyframes slidein {
+    from {bottom: -150vh;}
+    to {bottom: 0;}
+  }
